@@ -1,0 +1,34 @@
+# === Binaires compilés ===
+broker
+client
+*.exe
+*.out
+*.o
+*.obj
+
+# === Fichiers générés par rpcgen (regénérés par `make`) ===
+broker_xdr.c
+broker_clnt.c
+broker_svc.c
+broker.h
+
+# === Logs runtime ===
+broker.log
+*.log
+
+# === Débogage / symboles macOS ===
+*.dSYM/
+
+# === Éditeurs / IDE ===
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# === Système ===
+.DS_Store
+Thumbs.db
+__MACOSX/
+
+# === Documents de cours (non redistribués sur le dépôt public) ===
+document_pdf.pdf
